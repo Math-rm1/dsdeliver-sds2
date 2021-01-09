@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 :root {
   --primary-color: #da5c5c;
   --primary-hover-color: #a74b4b;
@@ -10,7 +9,7 @@
 
 html, body {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 body {

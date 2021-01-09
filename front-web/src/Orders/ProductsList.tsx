@@ -6,7 +6,7 @@ type Props = {
     products: Product[],
     selectedProducts: Product[]
     onSelectProduct: (product: Product) => void
-  }
+}
 
 function ProductsList({ products, onSelectProduct, selectedProducts }: Props) {
     return (
