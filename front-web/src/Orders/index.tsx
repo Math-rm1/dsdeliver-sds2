@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
-import { fetchProducts, saveOrder } from '../api'
-import { OrderLocationData, Product } from './types'
 import { toast } from 'react-toastify'
+import { fetchProducts, saveOrder } from '../api'
+import Footer from '../Footer'
 import { checkIsSelected } from './helpers'
 import OrderLocation from './OrderLocation'
 import OrderSummary from './OrderSummary'
 import ProductsList from './ProductsList'
 import StepsHeader from './StepsHeader'
-import Footer from '../Footer'
 import './styles.css'
+import { OrderLocationData, Product } from './types'
 
 function Orders() {
     const [products, setProducts] = useState<Product[]>([])
@@ -21,7 +21,7 @@ function Orders() {
     useEffect(() => {
         fetchProducts()
             .then(response => setProducts(response.data))
-            .catch(error => toast.warning("Erro ao listar produtos"))
+            .catch(error => toast.warning("Erro ao listar produtos!"))
     }, [])
 
     const handleSelectProduct = (product: Product) => {
@@ -75,4 +75,4 @@ function Orders() {
     )
 }
 
-export default Orders
+export default Orders;

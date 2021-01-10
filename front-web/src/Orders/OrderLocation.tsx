@@ -10,12 +10,12 @@ const initialPosition = {
 }
 
 type Place = {
-    label?: string;
-    value?: string;
+    label?: string,
+    value?: string,
     position: {
-        lat: number;
-        lng: number;
-    };
+        lat: number,
+        lng: number
+    }
 }
 
 type Props = {
