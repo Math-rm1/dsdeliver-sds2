@@ -31,4 +31,4 @@ function OrderSummary({ amount, totalPrice, onSubmit }: Props) {
     )
 }
 
-export default OrderSummary
+export default OrderSummary;
