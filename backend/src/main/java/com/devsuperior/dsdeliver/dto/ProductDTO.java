@@ -27,12 +27,11 @@ public class ProductDTO implements Serializable {
 	}
 
 	public ProductDTO(Product entity) {
-		super();
-		id = entity.getId();
-		name = entity.getName();
-		price = entity.getPrice();
-		description = entity.getDescription();
-		imageUri = entity.getImageUri();
+		this.id = entity.getId();
+		this.name = entity.getName();
+		this.price = entity.getPrice();
+		this.description = entity.getDescription();
+		this.imageUri = entity.getImageUri();
 	}
 
 	public Long getId() {

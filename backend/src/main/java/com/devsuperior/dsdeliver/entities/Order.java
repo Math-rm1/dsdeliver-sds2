@@ -34,12 +34,13 @@ public class Order implements Serializable {
 	private Set<Product> products = new HashSet<>();
 
 	public Order() {
+
 	}
 
-	public Order(Long id, String adress, Double latitude, Double longitude, Instant moment, OrderStatus status) {
+	public Order(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
 		super();
 		this.id = id;
-		this.address = adress;
+		this.address = address;
 		this.latitude = latitude;
 		this.longitude = longitude;
 		this.moment = moment;
@@ -54,12 +55,12 @@ public class Order implements Serializable {
 		this.id = id;
 	}
 
-	public String getAdress() {
+	public String getAddress() {
 		return address;
 	}
 
-	public void setAdress(String adress) {
-		this.address = adress;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	public Double getLatitude() {
@@ -92,6 +93,14 @@ public class Order implements Serializable {
 
 	public void setStatus(OrderStatus status) {
 		this.status = status;
+	}
+
+	public Double getTotal() {
+		double sum = 0.0;
+		for (Product p : products) {
+			sum += p.getPrice();
+		}
+		return sum;
 	}
 
 	public Set<Product> getProducts() {
