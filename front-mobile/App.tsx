@@ -1,7 +1,5 @@
 import AppLoading from 'expo-app-loading';
 import React from 'react';
-import Header from './src/Header';
-import Home from './src/Home';
 import Routes from './src/Routes';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
