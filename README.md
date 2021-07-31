@@ -17,9 +17,9 @@ Sistema de pedidos chamado DSDelivery que simula o pedido e a entrega de uma piz
   <img height="500px" alt="Mobile 01" src="https://github.com/Math-rm1/sds2/blob/main/assets/mobile-01.jpg"/> <img height="500px" alt="Mobile 02" src="https://github.com/Math-rm1/sds2/blob/main/assets/mobile-02.jpg"/>  <img height="500px" alt="Mobile 03" src="https://github.com/Math-rm1/sds2/blob/main/assets/mobile-03.jpg"/>
 
 ### :computer: Layout web
-  <img height="500px" alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-01.png"/>
-  <img height="500px" alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-02.png"/>
-  <img height="500px" alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-03.png"/>
+  <img alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-01.png"/>
+  <img alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-02.png"/>
+  <img alt="Web-01" src="https://github.com/Math-rm1/sds2/blob/main/assets/web-03.png"/>
 
 ### :diamond_shape_with_a_dot_inside: Modelo conceitual
 ![Modelo Conceitual](https://raw.githubusercontent.com/devsuperior/sds2/master/assets/modelo-conceitual.png)
